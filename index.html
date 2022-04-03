@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="card-container">
+            <figure class="contain-icon">
+                <div class="icon"></div>
+            </figure>
+            <div class="text">
+                <h1>How did we do?</h1>
+                <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            </div>
+            <div class="formulario">
+                <div class="option">1</div>
+                <div class="option">2</div>
+                <div class="option">3</div>
+                <div class="option">4</div>
+                <div class="option">5</div>
+            </div>
+            <button id="submit">SUBMIT</button>
+        </section>
+
+        <!--Aqui comienza la card cuando ya seleccionó una opcion-->
+        <section class="card-container2 remove">
+            <div class="contain-icon-thanks">
+                <figure id="icon-thanks"></figure>
+            </div>
+            <div class="text-select">
+                <p>You select <span id="selection"> </span>  out of 5</p>
+            </div>
+            <div class="text2">
+                <h1>Thank you!</h1>
+                <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+            </div>
+        </section>
+
+        <div class="footer">
+            <p>Hecho con amor por <a href="#">Jose Rangel</a></p>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Overpass', sans-serif;;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #121417;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-container, .card-container2 {
+    width: 32rem;
+    padding: 1.8rem 1.5rem;
+    height: max-content;
+    background-color: #1e252e;
+    border-radius: 12px;
+}
+.contain-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #252d37;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.icon {
+    width: 15px;
+    height: 15px;
+    background-image: url('./assets/icon-star.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.text {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text h1, .text2 h1 {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 700;
+}
+.text p, .text2 p {
+    color: #959eac;
+    font-size: 1.3rem;
+    line-height: 20px;
+    font-weight: 200;
+}
+.formulario {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.option {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #959eac;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #252d37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.option:hover {
+    background-color: #fb7413;
+    color: white;
+}
+
+button {
+    margin-top: 24px;
+    width: 100%;
+    height: 40px;
+    border-radius: 24px;
+    color: white;
+    font-weight: bold;
+    background-color: #fb7413;
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer
+}
+button:hover {
+    background-color: white;
+    color: #fb7413;
+}
+.footer {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    font-size: 1.3rem;
+}
+.footer a {
+    background-color: #fb7413;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.card-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contain-icon-thanks {
+    width: 140px;
+    height: 100px;
+    margin: 18px 0;
+    /* background-color: white; */
+}
+.contain-icon-thanks figure {
+    width: 120;
+    height: 100px;
+    background-image: url('./assets/illustration-thank-you.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.text-select {
+    width: 170px;
+    height: 35px;
+    border-radius: 16px;
+    padding: 6px 12px;
+    background-color: #252d37;
+    color: #fb7413;
+    font-size: 1.4rem;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.text2 h1, .text2 p {
+    text-align: center;
+}
+.remove {
+    display: none;
+}
+.changeColor {
+    background-color: #959eac;;
+    color: white;
+}
